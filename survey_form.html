@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./naru.css">
+</head>
+
+<body>
+    <h1>Naruto Survey Form</h1>
+    <div class="padd">
+        <form>
+            <div class="long">
+                <label for="fname">Name</label><br>
+                <input type="text" id="fname" placeholder="Enter your name"><br>
+                <label for="pmail">Email</label><br>
+                <input type="email" id="pmail" placeholder="Enter your Email"><br>
+                <label for="age">Age</label><br>
+                <input type="number" id="age" placeholder="Enter your Age"><br>
+            </div>
+            <p>Which option best describes you</p>
+            <div class="long">
+                <select name="watcher" id="watcher">
+                    <option value="Casual ">Casual Watcher</option>
+                    <option value="otaku">Otaku Watcher</option>
+                    <option value="seasonal">Seasonal Watcher</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <p>Would you recommend Naruto to a Friend</p>
+            <input type="radio" id="radio" value="Yes">
+            <label for="radio">Yes</label><br>
+            <input type="radio" id="rad" value="No">
+            <label for="rad">No</label><br>
+            <input type="radio" id="rd" value="Maybe">
+            <label for="rd">Matbe</label>
+
+            <p>Charachter you like the most(check all that apply)</p>
+            <input type="checkbox" id="chk">
+            <label for="inp-1">Naruto Uzumaki</label><br>
+            <input type="checkbox" id="chk">
+            <label for="inp-2">Sasuke Uchiha</label><br>
+            <input type="checkbox" id="chk">
+            <label for="inp-3">Kakashi Hatake</label><br>
+            <input type="checkbox" id="chk">
+            <label for="inp-4">Madara Uchiha</label><br>
+            <input type="checkbox" id="chk">
+            <label for="inp-5">Itachi Uchiha</label><br>
+            <input type="checkbox" id="chk">
+            <label for="inp-6">Minato Namekaze</label><br>
+            <input type="checkbox" id="chk">
+            <label for="inp-7">Obito Uchiha</label><br>
+            <input type="checkbox" id="chk">
+            <label for="inp-8">Orochimaru</label><br>
+            <input type="checkbox" id="chk">
+            <label for="inp-9">Shikamaru Nara</label><br>
+            <input type="checkbox" id="chk">
+            <label for="inp-10">Shisui Uchiha</label>
+            <p>Any comments or suggestions for Naruto Fandom Page</p>
+            <div class="long">
+                <textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea><br>
+                <button type="submit" value="Submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

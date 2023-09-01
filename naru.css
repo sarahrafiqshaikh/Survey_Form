@@ -1,0 +1,25 @@
+body{
+    background-color: orange;
+}
+h1{
+    text-align: center;
+    font-size: 250%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form{
+    background-color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 5%;
+    padding-top: 4%;
+    box-shadow: 10px 10px 10px rgb(204, 133, 0);
+    border:100% ;
+    text-align: left;
+    
+}
+.long{
+    block-size:500%;
+}
